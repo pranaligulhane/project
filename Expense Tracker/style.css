@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,231,1) 100%);
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .expense-item {
+    margin-bottom: 10px;
+  }
+  
+  .total {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
